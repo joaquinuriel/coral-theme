@@ -1,0 +1,33 @@
+{
+  "name": "corallike",
+  "displayName": "Corallike",
+  "description": "A coral-like theme",
+  "icon": "coral-logo.png",
+  "author": {
+    "name": "joaquin uriel",
+    "email": "joaquinuriel94@gmail.com",
+    "url": "https://joaquinuriel.github.io"
+  },
+  "publisher": "JoaquinMartinez",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Corallike",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Corallike-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "0d3b3d1d-7ad3-490e-98c9-84820dfd28d3",
+    "publisherDisplayName": "Joaquin Martinez",
+    "publisherId": "1150a96e-c81d-466e-be83-398fb288142f"
+  }
+}
