@@ -53,8 +53,19 @@
 
     { "scope": "punctuation", "settings": { "foreground": "#eee" } },
     { "scope": "meta.brace.round", "settings": { "foreground": "#eee" } },
+    { "scope": "meta.brace.square", "settings": { "foreground": "#eee" } },
     { "scope": "string", "settings": { "foreground": "#aaa" } },
     { "scope": "comment", "settings": { "foreground": "#555" } },
+
+    {
+      "name": "class, type and interface keywords",
+      "scope": [
+        "storage.type.class",
+        "storage.type.type",
+        "storage.type.interface"
+      ],
+      "settings": { "foreground": "#a5f" }
+    },
 
     {
       "name": "HTML attributes",
@@ -92,6 +103,12 @@
       "settings": { "foreground": "#5ff" }
     },
 
+    {
+      "name": "template literals",
+      "scope": "meta.template",
+      "settings": { "foreground": "#5af" }
+    },
+
     // UNDEFINED TOKEN COLORS
 
     {
@@ -108,8 +125,12 @@
       "settings": { "foreground": "#5af" }
     },
     {
-      "name": "new void",
-      "scope": ["keyword.operator.new", "keyword.operator.expression.void"],
+      "name": "this new void",
+      "scope": [
+        "variable.language.this",
+        "keyword.operator.new",
+        "keyword.operator.expression.void"
+      ],
       "settings": { "foreground": "#a5f" }
     },
 

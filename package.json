@@ -1,15 +1,11 @@
 {
   "name": "corallike",
   "displayName": "Corallike",
-  "description": "A coral-like theme",
+  "description": "A coral-like theme for VS Code",
   "icon": "coral-logo.png",
-  "author": {
-    "name": "joaquin uriel",
-    "email": "joaquinuriel94@gmail.com",
-    "url": "https://joaquinuriel.github.io"
-  },
+  "author": "joaquin uriel <joaquinuriel94@gmail.com> (https://joaquinuriel.github.io)",
   "publisher": "JoaquinMartinez",
-  "version": "0.1.0",
+  "version": "0.4.1",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -25,6 +21,15 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaquinuriel/coral-theme.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joaquinuriel/coral-theme/issues"
+  },
+  "homepage": "https://github.com/Joaquinuriel/coral-theme#readme",
   "__metadata": {
     "id": "0d3b3d1d-7ad3-490e-98c9-84820dfd28d3",
     "publisherDisplayName": "Joaquin Martinez",
