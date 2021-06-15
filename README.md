@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/corallike-icon.png" width="128" />
+<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/corallike-logo.png" width="128" />
 
 # Coral like Theme
 
