@@ -1,4 +1,12 @@
-# Coral like theme
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/corallike-icon.png" width="128" />
+
+# Coral like Theme
+
+A VS Code Coral-like theme.
+
+</div>
 
 ### Features
 

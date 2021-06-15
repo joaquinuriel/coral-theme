@@ -161,6 +161,26 @@
       "settings": { "foreground": "#5af" }
     },
 
+    // MARKDOWN
+
+    { "scope": "markup.bold", "settings": { "fontStyle": "bold" } },
+    { "scope": "markup.italic", "settings": { "fontStyle": "italic" } },
+    {
+      "name": "MD Titles",
+      "scope": "markup.heading",
+      "settings": { "foreground": "#5af", "fontStyle": "bold" }
+    },
+    {
+      "name": "List punctuation",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": { "foreground": "#5af" }
+    },
+    {
+      "name": "MD Inline",
+      "scope": "markup.inline.raw",
+      "settings": { "foreground": "#5ff", "fontStyle": "italic" }
+    },
+
     // UNDEFINED TOKEN COLORS
 
     {
