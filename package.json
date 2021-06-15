@@ -2,7 +2,7 @@
   "name": "corallike",
   "displayName": "Corallike",
   "description": "A coral-like theme for VS Code",
-  "icon": "corallike-logo.png",
+  "icon": "logo.png",
   "author": "joaquin uriel <joaquinuriel94@gmail.com> (https://joaquinuriel.github.io)",
   "publisher": "JoaquinMartinez",
   "version": "0.7.3",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Joaquinuriel/coral-theme.git"
+    "url": "https://github.com/Joaquinuriel/coral-theme"
   },
   "license": "MIT",
   "bugs": {

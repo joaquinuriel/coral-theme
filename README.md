@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/corallike-logo.png" width="128" />
+<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/logo.png" width="128" />
 
 # Coral like Theme
 
@@ -12,14 +12,14 @@ A VS Code Coral-like theme.
 
 </div>
 
-### Features
+## Features
 
 // TODO highlighting
 
-### Feedback and suggestions
+## Feedback and suggestions
 
 [GitHub Issues](https://github.com/Joaquinuriel/coral-theme/issues)
 
-### License
+## License
 
 [MIT License](LICENSE)
