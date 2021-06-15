@@ -5,7 +5,7 @@
   "icon": "corallike-logo.png",
   "author": "joaquin uriel <joaquinuriel94@gmail.com> (https://joaquinuriel.github.io)",
   "publisher": "JoaquinMartinez",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "engines": {
     "vscode": "^1.56.0"
   },
