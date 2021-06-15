@@ -2,6 +2,7 @@
   "name": "Corallike",
   "type": "dark",
   "colors": {
+    "editor.foreground": "#eee",
     "editor.background": "#151515",
     "editorGroupHeader.tabsBorder": "#333",
     "editorGroupHeader.tabsBackground": "#222",
@@ -28,12 +29,12 @@
     "menu.border": "#333",
     "menu.foreground": "#eee"
   },
-  // "semanticTokenColors": { "property": "#" },
   "tokenColors": [
     // MY TOKEN COLORS
+
     { "scope": "entity.name.function", "settings": { "foreground": "#ffa" } },
     { "scope": "entity.name.method", "settings": { "foreground": "#ffa" } },
-    { "scope": "entity.name.tag", "settings": { "foreground": "#fa5" } },
+    { "scope": "entity.name.tag", "settings": { "foreground": "#f55" } },
     { "scope": "entity.name.type", "settings": { "foreground": "#5af" } },
     { "scope": "entity.name.class", "settings": { "foreground": "#5af" } },
 
@@ -42,24 +43,19 @@
     { "scope": "constant.language", "settings": { "foreground": "#5af" } },
     { "scope": "constant.numeric", "settings": { "foreground": "#5ff" } },
     { "scope": "constant.numeric.css", "settings": { "foreground": "#ffa" } },
-    { "scope": "constant.character", "settings": { "foreground": "#5ff" } },
+    { "scope": "constant.character", "settings": { "foreground": "#ffa" } },
 
     { "scope": "keyword.control", "settings": { "foreground": "#5fa" } },
     { "scope": "keyword.operator", "settings": { "foreground": "#eee" } },
+    { "scope": "keyword.todo", "settings": { "foreground": "#f55" } },
 
     { "scope": "storage.type", "settings": { "foreground": "#5af" } },
     { "scope": "storage.modifier", "settings": { "foreground": "#a5f" } },
-
-    { "scope": "constant.language", "settings": { "foreground": "#5af" } },
 
     { "scope": "invalid", "settings": { "foreground": "#f55" } },
 
     { "scope": "string", "settings": { "foreground": "#aaa" } },
     { "scope": "string.regexp", "settings": { "foreground": "#5fa" } },
-    {
-      "scope": "string.quoted.double.html",
-      "settings": { "foreground": "#5fa" }
-    },
 
     {
       "name": "punctuation",
@@ -82,11 +78,6 @@
     // HTML
 
     {
-      "name": "HTML tags",
-      "scope": "entity.name.tag.html",
-      "settings": { "foreground": "#f55" }
-    },
-    {
       "name": "HTML attributes",
       "scope": "entity.other.attribute-name.html",
       "settings": { "foreground": "#fa5" }
@@ -96,7 +87,6 @@
       "scope": "string.quoted.double.html",
       "settings": { "foreground": "#ffa" }
     },
-
     {
       "name": "HTML text",
       "scope": "text.html",
@@ -104,6 +94,12 @@
     },
 
     // sass & css
+
+    {
+      "name": "classes",
+      "scope": "entity.other.attribute-name",
+      "settings": { "foreground": "#ffa" }
+    },
 
     {
       "name": "style keys",
@@ -117,7 +113,7 @@
       "settings": { "foreground": "#eee" }
     },
 
-    { "scope": "sass.use", "settings": { "foreground": "#5ff" } },
+    { "scope": "sass.use", "settings": { "foreground": "#5fa" } },
 
     {
       "name": "sass scripts",
@@ -132,7 +128,8 @@
       "scope": [
         "storage.type.class",
         "storage.type.type",
-        "storage.type.interface"
+        "storage.type.interface",
+        "storage.type.namespace"
       ],
       "settings": { "foreground": "#a5f" }
     },
