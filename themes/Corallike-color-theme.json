@@ -48,12 +48,12 @@
 
     { "scope": "keyword.control", "settings": { "foreground": "#5fa" } },
     { "scope": "keyword.operator", "settings": { "foreground": "#eee" } },
-    { "scope": "keyword.todo", "settings": { "foreground": "#f55" } },
 
     { "scope": "storage.type", "settings": { "foreground": "#5af" } },
     { "scope": "storage.modifier", "settings": { "foreground": "#a5f" } },
 
     { "scope": "invalid", "settings": { "foreground": "#f55" } },
+    { "scope": "comment.todo", "settings": { "foreground": "#f55" } },
 
     { "scope": "string", "settings": { "foreground": "#aaa" } },
     { "scope": "string.regexp", "settings": { "foreground": "#5fa" } },
@@ -75,6 +75,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#555" }
     },
+
 
     // HTML
 

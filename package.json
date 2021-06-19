@@ -5,7 +5,7 @@
   "icon": "logo.png",
   "author": "joaquin uriel <joaquinuriel94@gmail.com> (https://joaquinuriel.github.io)",
   "publisher": "JoaquinMartinez",
-  "version": "0.7.4",
+  "version": "0.8.1",
   "engines": {
     "vscode": "^1.56.0"
   },
