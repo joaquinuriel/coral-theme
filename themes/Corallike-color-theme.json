@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     "editor.foreground": "#eee",
-    "editor.background": "#151515",
+    "editor.background": "#111",
     "editorGroupHeader.tabsBorder": "#333",
     "editorGroupHeader.tabsBackground": "#222",
     "tab.inactiveBackground": "#222",
@@ -24,6 +24,7 @@
     "statusBar.background": "#222",
     "statusBar.debuggingBackground": "#222",
     "statusBar.border": "#333",
+    "statusBarItem.remoteBackground": "#55f",
     "scrollbar.shadow": "#151515",
     "menu.background": "#222",
     "menu.border": "#333",
