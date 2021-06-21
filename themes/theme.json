@@ -2,8 +2,15 @@
   "name": "Corallike",
   "type": "dark",
   "colors": {
+    "focusBorder": "#0000",
     "editor.foreground": "#eee",
     "editor.background": "#111",
+    "editor.wordHighlightBackground": "#0000",
+    "editor.lineHighlightBorder": "#0000",
+    "editorBracketMatch.border": "#0000",
+    "editorBracketMatch.background": "#5555",
+    "editor.selectionBackground": "#55f",
+    "editor.selectionHighlightBackground": "#55f5",
     "editorGroupHeader.tabsBorder": "#333",
     "editorGroupHeader.tabsBackground": "#222",
     "tab.inactiveBackground": "#222",
@@ -45,6 +52,7 @@
     { "scope": "constant.numeric", "settings": { "foreground": "#5ff" } },
     { "scope": "constant.numeric.css", "settings": { "foreground": "#ffa" } },
     { "scope": "constant.character", "settings": { "foreground": "#ffa" } },
+    { "scope": "support.constant", "settings": { "foreground": "#5fa" } },
 
     { "scope": "keyword.control", "settings": { "foreground": "#5fa" } },
     { "scope": "keyword.operator", "settings": { "foreground": "#eee" } },
@@ -75,7 +83,6 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#555" }
     },
-
 
     // HTML
 

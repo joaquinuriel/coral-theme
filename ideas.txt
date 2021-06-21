@@ -1,0 +1,10 @@
+    // "configuration": {
+    //   "title": "Corallike",
+    //   "properties": {
+    //     "corallike.bracketColors": {
+    //       "type": "boolean",
+    //       "default": false,
+    //       "description": "Whether to colorize brackets",
+    //     }
+    //   }
+    // }

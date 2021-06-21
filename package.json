@@ -1,7 +1,7 @@
 {
   "name": "corallike",
   "displayName": "Corallike",
-  "description": "A coral-like theme for VS Code",
+  "description": "A Coral-like color theme for VS Code",
   "icon": "logo.png",
   "author": "joaquin uriel <joaquinuriel94@gmail.com> (https://joaquinuriel.github.io)",
   "publisher": "JoaquinMartinez",
@@ -13,6 +13,13 @@
     "Themes"
   ],
   "contributes": {
+    "themes": [
+      {
+        "label": "Corallike",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ],
     "grammars": [
       {
         "path": "./syntaxes/injection.json",
@@ -21,13 +28,6 @@
           "source.js",
           "source.ts"
         ]
-      }
-    ],
-    "themes": [
-      {
-        "label": "Corallike",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Corallike-color-theme.json"
       }
     ]
   },
