@@ -5,7 +5,7 @@
   "icon": "logo.png",
   "author": "joaquin uriel <joaquinuriel94@gmail.com> (https://joaquinuriel.github.io)",
   "publisher": "JoaquinMartinez",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -22,8 +22,16 @@
     ],
     "grammars": [
       {
-        "path": "./syntaxes/injection.json",
         "scopeName": "todo",
+        "path": "./syntaxes/todo.json",
+        "injectTo": [
+          "source.js",
+          "source.ts"
+        ]
+      },
+      {
+        "scopeName": "region",
+        "path": "./syntaxes/region.json.",
         "injectTo": [
           "source.js",
           "source.ts"

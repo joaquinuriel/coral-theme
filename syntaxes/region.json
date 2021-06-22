@@ -1,0 +1,9 @@
+{
+  "scopeName": "region",
+  "injectionSelector": "L:comment.line.double-slash",
+  "patterns": [{ "include": "#region" }, { "include": "#endregion" }],
+  "repository": {
+    "region": { "match": "#region", "name": "comment.region" },
+    "endregion": { "match": "#endregion", "name": "comment.region" }
+  }
+}

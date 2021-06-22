@@ -1,20 +1,22 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/logo.png" width="128" />
+<img src="https://github/joaquinuriel/coral-theme/raw/master/static/logo.png" width="128" />
 
 # Coral like Theme
 
 A Coral-like Color Theme for Visual Studio Code
 
-![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/code.png)
-![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/html.png)
-![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/sass.png)
+![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/static/code.png)
+![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/static/html.png)
+![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/static/sass.png)
 
 </div>
 
 ## Features
 
-- // TODO highlighting
+- `// TODO` highlighting
+- `//#region` highlighting
+- `//#endregion` highlighting
 
 ## Installation
 
