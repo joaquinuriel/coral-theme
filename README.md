@@ -1,10 +1,16 @@
 <div align="center">
 
-<img src="https://github/joaquinuriel/coral-theme/raw/master/static/logo.png" width="128" />
+<img src="https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/static/logo.png" width="128" />
 
 # Coral like Theme
 
 A Coral-like Color Theme for Visual Studio Code
+<p>
+<img src="https://vsmarketplacebadge.apphb.com/version-short/joaquinmartinez.corallike.svg"></img>
+<img src="https://vsmarketplacebadge.apphb.com/downloads/joaquinmartinez.corallike.svg"></img>
+<img src="https://vsmarketplacebadge.apphb.com/rating-star/joaquinmartinez.corallike.svg"></img>
+</p>
+<!-- https://vsmarketplacebadge.apphb.com/version/joaquinmartinez.corallike.svg -->
 
 ![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/static/code.png)
 ![screenshot](https://raw.githubusercontent.com/joaquinuriel/coral-theme/master/static/html.png)
