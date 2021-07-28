@@ -1,55 +1,17 @@
 {
   "name": "Corallike",
   "type": "dark",
-  "colors": {
-    "focusBorder": "#0000",
-    "editor.foreground": "#eee",
-    "editor.background": "#111",
-    "editor.wordHighlightBackground": "#0000",
-    "editor.lineHighlightBorder": "#0000",
-    "editorBracketMatch.border": "#0000",
-    "editorBracketMatch.background": "#5555",
-    "editor.selectionBackground": "#55f",
-    "editor.selectionHighlightBackground": "#55f5",
-    "editorGroupHeader.tabsBorder": "#333",
-    "editorGroupHeader.tabsBackground": "#222",
-    "tab.inactiveBackground": "#222",
-    "tab.activeBackground": "#222",
-    "tab.activeBorder": "#55f",
-    "titleBar.inactiveBackground": "#222",
-    "titleBar.activeBackground": "#222",
-    "titleBar.border": "#333",
-    "sideBar.background": "#222",
-    "sideBar.border": "#333",
-    "sideBarSectionHeader.background": "#222",
-    "sideBarSectionHeader.border": "#333",
-    "activityBar.background": "#222",
-    "activityBar.border": "#333",
-    "activityBar.activeBorder": "#55f",
-    "activityBar.activeFocusBorder": "#55f",
-    "activityBarBadge.background": "#55f",
-    "statusBar.background": "#222",
-    "statusBar.debuggingBackground": "#222",
-    "statusBar.border": "#333",
-    "statusBarItem.remoteBackground": "#55f",
-    "scrollbar.shadow": "#151515",
-    "menu.background": "#222",
-    "menu.border": "#333",
-    "menu.foreground": "#eee"
-  },
   "tokenColors": [
-    // MY TOKEN COLORS
-
     { "scope": "entity.name.function", "settings": { "foreground": "#ffa" } },
     { "scope": "entity.name.method", "settings": { "foreground": "#ffa" } },
     { "scope": "entity.name.tag", "settings": { "foreground": "#f55" } },
-    { "scope": "entity.name.type", "settings": { "foreground": "#5af" } },
+    { "scope": "entity.name.type", "settings": { "foreground": "#5fa" } },
     { "scope": "entity.name.class", "settings": { "foreground": "#5af" } },
 
     { "scope": "variable", "settings": { "foreground": "#5ff" } },
 
     { "scope": "constant.language", "settings": { "foreground": "#5af" } },
-    { "scope": "constant.numeric", "settings": { "foreground": "#5ff" } },
+    { "scope": "constant.numeric", "settings": { "foreground": "#faa" } },
     { "scope": "constant.numeric.css", "settings": { "foreground": "#ffa" } },
     { "scope": "constant.character", "settings": { "foreground": "#ffa" } },
     { "scope": "support.constant", "settings": { "foreground": "#5fa" } },
@@ -62,10 +24,9 @@
 
     { "scope": "invalid", "settings": { "foreground": "#f55" } },
 
-    { "scope": "string", "settings": { "foreground": "#aaa" } },
-    { "scope": "string.regexp", "settings": { "foreground": "#5fa" } },
+    { "scope": "string", "settings": { "foreground": "#ffd5aa" } },
+    { "scope": "string.regexp", "settings": { "foreground": "#faa" } },
 
-    { "scope": "comment", "settings": { "foreground": "#555" } },
     { "scope": "comment.todo", "settings": { "foreground": "#f55" } },
     { "scope": "comment.region", "settings": { "foreground": "#55f" } },
 
@@ -76,7 +37,13 @@
     },
 
     {
-      "name": "${var}",
+      "name": "Comments",
+      "scope": "comment",
+      "settings": { "foreground": "#555", "fontStyle": "italic" }
+    },
+
+    {
+      "name": "Template Literals",
       "scope": "punctuation.definition.template-expression",
       "settings": { "foreground": "#5af" }
     },
@@ -86,8 +53,6 @@
       "scope": ["punctuation.definition.comment"],
       "settings": { "foreground": "#555" }
     },
-
-    // HTML
 
     {
       "name": "HTML attributes",
@@ -104,8 +69,16 @@
       "scope": "text.html",
       "settings": { "foreground": "#eee" }
     },
-
-    // sass & css
+    {
+      "name": "JSX tags",
+      "scope": "entity.name.tag.jsx",
+      "settings": { "foreground": "#5af" }
+    },
+    {
+      "name": "JSX Text",
+      "scope": "meta.jsx",
+      "settings": { "foreground": "#eee" }
+    },
 
     {
       "name": "classes",
@@ -132,8 +105,6 @@
       "scope": "support.function",
       "settings": { "foreground": "#ffa" }
     },
-
-    // TYPESCRIPT
 
     {
       "name": "class, type and interface keywords",
@@ -173,8 +144,6 @@
       "settings": { "foreground": "#5af" }
     },
 
-    // MARKDOWN
-
     { "scope": "markup.bold", "settings": { "fontStyle": "bold" } },
     { "scope": "markup.italic", "settings": { "fontStyle": "italic" } },
     {
@@ -192,8 +161,6 @@
       "scope": "markup.inline.raw",
       "settings": { "foreground": "#5ff", "fontStyle": "italic" }
     },
-
-    // UNDEFINED TOKEN COLORS
 
     {
       "name": "super()",

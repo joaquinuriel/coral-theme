@@ -1,0 +1,12 @@
+- #f55 red
+- #fa5 orange
+- #ffa yellow
+- #af5 light green
+- #5f5 green
+- #5fa mint
+- #5ff light cyan
+- #5af light blue
+- #55f blue
+- #a5f violet
+- #f5f magenta
+- #f5a pink

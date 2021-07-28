@@ -5,6 +5,7 @@
 # Coral like Theme
 
 A Coral-like Color Theme for Visual Studio Code
+
 <p>
 <img src="https://vsmarketplacebadge.apphb.com/version-short/joaquinmartinez.corallike.svg"></img>
 <img src="https://vsmarketplacebadge.apphb.com/downloads/joaquinmartinez.corallike.svg"></img>
